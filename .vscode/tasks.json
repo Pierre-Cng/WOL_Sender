@@ -9,6 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
+                "-I${workspaceFolder}/Headers",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
